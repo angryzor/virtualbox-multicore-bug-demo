@@ -16,7 +16,7 @@ in polling mode (which is a common use case, vboxsf does not support inotify).
 This causes a large load of constant disk I/O. While using multicore,
 VBox will hang after a small amount of time (usually less than 2 minutes).
 
-This bug was tested on an Ubuntu 16.10 host machine.
+This bug was tested on an Ubuntu 17.04 host machine.
 
 # How to reproduce
 
